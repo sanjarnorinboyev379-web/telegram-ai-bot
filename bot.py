@@ -16,7 +16,7 @@ DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 STABILITY_API_KEY = os.getenv("STABILITY_API_KEY")
 
 
-ARK_API_KEY = os.getenv("ARK_API_KEY")
+
 open
 logging.basicConfig(level=logging.INFO)
 
