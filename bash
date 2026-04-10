@@ -1,0 +1,1 @@
+pip install aiogram openai duckduckgo-search python-dotenv requests
