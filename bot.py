@@ -144,6 +144,7 @@ def style(text, mode,code=None):
 async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text or ""
     mode = detect_type(text)
+    
 
     await update.message.chat.send_action(constants.ChatAction.TYPING)
 
